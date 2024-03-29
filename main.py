@@ -30,7 +30,8 @@ with streamlit.sidebar:
     top_p = streamlit.sidebar.slider('top_p', min_value=0.01, max_value=1.0, value=0.9, step=0.01)
     max_length = streamlit.sidebar.slider('max_length', min_value=32, max_value=128, value=120, step=8)
     # streamlit.markdown(
-    #     '📖 Learn how to build this app in this [blog](https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/)!')
+    #     '📖 Learn how to build this app in this [blog](write a blog to share?)!')
+
 
 # Store LLM generated responses
 if "messages" not in streamlit.session_state.keys():
